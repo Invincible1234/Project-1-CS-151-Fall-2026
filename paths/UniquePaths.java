@@ -1,7 +1,13 @@
-class Solution {
+package paths;
+
+import java.util.Arrays;
+
+// Volodymyr Surin, Partner 1: Sky Noe, Partner 2: TBD
+
+public class UniquePaths {
     public int uniquePaths(int m, int n) {
         int[] dp = new int[n];
-        java.util.Arrays.fill(dp, 1);
+        Arrays.fill(dp, 1);
         for (int i = 1; i < m; i++) {
             for (int j = 1; j < n; j++) {
                 dp[j] += dp[j - 1];
