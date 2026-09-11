@@ -1,20 +1,20 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
-import java.util.ArrayDeque;
+
+  // Definition for a binary tree node.
+class TreeNode {
+       int val;
+       TreeNode left;
+       TreeNode right;
+       TreeNode() {}
+       TreeNode(int val) { this.val = val; }
+       TreeNode(int val, TreeNode left, TreeNode right) {
+           this.val = val;
+           this.left = left;
+           this.right = right;
+       }
+  }
+ 
 package kthSmallestElement;
+import java.util.ArrayDeque;
 //Name: Jeet Vyas.  Partner 1: Volodymir Surin Partner 2: Angelica Perez Bonilla.
 public class KthSmallestElement {
     public int kthSmallest(TreeNode root, int k) {
