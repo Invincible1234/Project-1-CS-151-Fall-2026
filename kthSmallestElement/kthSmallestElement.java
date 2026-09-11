@@ -13,7 +13,10 @@
  *     }
  * }
  */
-class Solution {
+import java.util.ArrayDeque;
+package kthSmallestElement;
+//Name: Jeet Vyas.  Partner 1: Volodymir Surin Partner 2: Angelica Perez Bonilla.
+public class KthSmallestElement {
     public int kthSmallest(TreeNode root, int k) {
         ArrayDeque<TreeNode> fin = new ArrayDeque<>();//create a new array dequeue.
 
