@@ -2,7 +2,7 @@ package paths;
 
 import java.util.Arrays;
 
-// Volodymyr Surin, Partner 1: Sky Noe, Partner 2: Angelica Perez Bonilla
+// Volodymyr Surin, Partner 1: Sky Noe, Partner 2: Jeet
 
 public class UniquePaths {
     public int uniquePaths(int m, int n) {
