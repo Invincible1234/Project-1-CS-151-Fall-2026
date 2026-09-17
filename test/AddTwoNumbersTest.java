@@ -1,6 +1,5 @@
 package test;
 
-import java.util.Arrays;
 import thaneesha_submission.ListNode;
 import thaneesha_submission.AddTwoNumbers;
 
@@ -33,7 +32,39 @@ class AddTwoNumbersTest {
         added = s.addTwoNumbers(t_one, d_one);
         System.out.println(added.val == 0);
         System.out.println(added.next.val == 0);
-        System.out.println(added.next.next.val == 4); // 348 + 52 = 400 
+        System.out.println(added.next.next.val == 4); // 348 + 52 = 400
+        
+        // Test cases #2 (Sky)
+        
+        //Test 1
+        ListNode a1 = new ListNode(0);
+        ListNode a2 = new ListNode(0);
+
+        added = s.addTwoNumbers(a1, a2);
+        System.out.println(added.val == 0); // 0 + 0 = 0
+
+        //Test 2
+        ListNode b1 = new ListNode(9);
+        b1.next = new ListNode(9); // 99
+
+        ListNode b2 = new ListNode(1); // 1
+
+        added = s.addTwoNumbers(b1, b2);
+        System.out.println(added.val == 0);
+        System.out.println(added.next.val == 0);
+        System.out.println(added.next.next.val == 1); // 99 + 1 = 100
+
+        //Test 3
+        ListNode c1 = new ListNode(5); // 5
+
+        ListNode c2 = new ListNode(5);
+        c2.next = new ListNode(4);
+        c2.next.next = new ListNode(2); // 245
+
+        added = s.addTwoNumbers(c1, c2);
+        System.out.println(added.val == 0);
+        System.out.println(added.next.val == 5);
+        System.out.println(added.next.next.val == 2); // 5 + 245 = 250
 
 
     }
