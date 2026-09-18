@@ -1,6 +1,8 @@
 package test;
 
+
 import ugly.UglyNumberII;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class UglyNumberIITest {
 
@@ -17,13 +19,13 @@ public class UglyNumberIITest {
         System.out.println(s.nthUglyNumber(20) == 36);
 
 
-        // Test cases (Jeet)
-        System.out.println(s.nthUglyNumber(2) == 2);
-        System.out.println(s.nthUglyNumber(3) == 3);
-        System.out.println(s.nthUglyNumber(5) == 5);
-        System.out.println(s.nthUglyNumber(7) == 8);
-        System.out.println(s.nthUglyNumber(15) == 24);
-        System.out.println(s.nthUglyNumber(6) == 6);
-        System.out.println(s.nthUglyNumber(12) == 16);
+        // Test cases (Jeet) - 7 JUnit test cases for ec.
+        assertEquals(2, s.nthUglyNumber(2));
+        assertEquals(3, s.nthUglyNumber(3));
+        assertEquals(5, s.nthUglyNumber(5));
+        assertEquals(8, s.nthUglyNumber(7));
+        assertEquals(24, s.nthUglyNumber(15));
+        assertEquals(6, s.nthUglyNumber(6));
+        assertEquals(16, s.nthUglyNumber(12));
     }
 }
