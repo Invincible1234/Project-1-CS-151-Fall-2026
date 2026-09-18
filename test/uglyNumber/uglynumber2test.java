@@ -8,7 +8,7 @@ public class uglynumber2test {
 
     public static void main(String[] args) {
 
-        Solution solution = new Solution();
+        uglynumber2test solution = new uglynumber2test();
 
         int result1 = solution.nthUglyNumber(1);
         System.out.println(result1 == 1);
