@@ -60,7 +60,36 @@ public class SortColorsTest {
 		System.out.println("Test 6:");
 		System.out.println(Arrays.equals(test6, expected6));
 		
-		
+		//Angelica P.
+		int [] test7 = {2, 1, 0};
+		int [] expected7 = {0, 1, 2};
+		objTest.sortColors(test7);
+		System.out.println("test 7 ");
+		System.out.println(Arrays.equals(test7, expected7));
+
+		int [] test8 = {2, 2, 2, 1, 1, 0, 0};
+		int [] expected8 = {0, 0, 1, 1, 2, 2, 2};
+		objTest.sortColors(test8);
+		System.out.println("test 8 ");
+		System.out.println(Arrays.equals(test8, expected8));
+
+		int [] test9 = {1, 1, 1};
+		int [] expected9 = {1, 1, 1};
+		objTest.sortColors(test9);
+		System.out.println("test 9 ");
+		System.out.println(Arrays.equals(test9, expected9));
+
+		int [] test10 = {0,2};
+		int [] expected10 = {0,2};
+		objTest.sortColors(test10);
+		System.out.println("test 10 ");
+		System.out.println(Arrays.equals(test10, expected10));
+
+		int [] test11 = {2, 0, 2, 0, 2, 0, 2, 0};
+		int [] expected11 = {0, 0, 0, 0, 2, 2, 2, 2};
+		objTest.sortColors(test11);
+		System.out.println("test 11 ");
+		System.out.println(Arrays.equals(test11, expected11));
 
 	}
 
