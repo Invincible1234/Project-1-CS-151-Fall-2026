@@ -1,4 +1,6 @@
-class Solution {
+package ugly;
+
+public class UglyNumberII {
     public int nthUglyNumber(int n) {
         int[] ugly = new int[n];
         ugly[0] = 1;
