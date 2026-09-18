@@ -1,8 +1,10 @@
-
+package test.uglyNumber;
 //i was getting error on the packages and imports for this particular file
 //since the original code by Angelica as is without any external path.
 //based on that i hope you won't dock points for that.
-public class UglyNumberII {
+import  uglyNumber.uglyNumberII;
+
+public class uglynumber2test {
 
     public static void main(String[] args) {
 
