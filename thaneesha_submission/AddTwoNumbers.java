@@ -1,7 +1,13 @@
 package thaneesha_submission;
 import java.math.BigInteger;
 import java.util.LinkedList;
-
+/*
+ * My Name: Thaneesha Singh
+ * Partners: 1 - Jeet Vyas
+ * 			 2 - Nam Vo
+ * 
+ * 
+ */
 
 public class AddTwoNumbers {
 
